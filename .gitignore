@@ -1,0 +1,84 @@
+## Visual Studio / .NET
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+
+## NuGet
+packages/
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Test / coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+coverage*.json
+coverage*.xml
+coverage*.info
+
+## Publish
+publish/
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+## User-specific / local secrets
+App.config.local
+
+appsettings.*.local.json
+secrets.json
+*.pfx
+
+## OS / IDE
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+.idea/
+*.tmp
+*.temp
+*.bak
+*.log
+
+## SQL Server local database files (do not commit live DB)
+*.mdf
+*.ldf
+*.ndf
+
+## ReSharper / Rider
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+
+## Others
+*.cache
+*.pdb
+*.exe
+*.dll
+!**/packages/**/*.dll
